@@ -214,3 +214,30 @@ html {
   line-height: 1.8;
   max-width: 800px;
 }
+
+@media (max-width: 768px) {
+  .card {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .card-img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card-img-overlay {
+    padding: 1.5rem;
+  }
+
+  .card-title {
+    font-size: 2rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 90%;
+  }
+}
+
