@@ -106,7 +106,6 @@ html {
 
 .info-background {
   position: relative;
-  background-image: url("images/bg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -125,13 +124,6 @@ html {
   z-index: 1;
 }
 
-.info-background .about-box {
-  position: relative;
-  z-index: 2;
-  background-color: rgba(255, 255, 255, 0.85);
-  color: #222;
-}
-
 .glass-navbar {
   background: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(10px) brightness(100%);
@@ -147,32 +139,26 @@ html {
 }
 
 .glass-navbar .nav-link {
-  color: #111 !important;
+  color: #111;
   font-weight: 500;
   letter-spacing: 0.5px;
   transition: color 0.3s ease;
 }
 
 .glass-navbar .nav-link:hover {
-  color: #000 !important;
+  color: #111;
 }
 
 .glass-navbar .navbar-brand {
-  color: #000 !important;
+  color: #000;
   font-weight: 700;
-}
-
-.navbar-toggler {
-  border: none;
-  background-color: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(5px);
 }
 
 .navbar.fixed-top {
   top: 20px;
   margin: 0 auto;
   width: 90%;
-  border-radius: 30px;
+  border-radius: 10px;
   box-shadow: 0 4px 20px rgba(112, 207, 219, 0.2);
 }
 
