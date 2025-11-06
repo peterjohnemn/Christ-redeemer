@@ -184,7 +184,7 @@ html {
   border: none;
   border-radius: 0;
   overflow: hidden;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
 }
 
@@ -217,17 +217,11 @@ html {
 
 @media (max-width: 768px) {
   .card {
-    height: auto;
-    min-height: 100vh;
-  }
-
-  .card-img {
-    height: 100%;
-    object-fit: cover;
+    min-height: 120vh;
   }
 
   .card-img-overlay {
-    padding: 1.5rem;
+    padding: 6rem 2rem;
   }
 
   .card-title {
@@ -237,7 +231,5 @@ html {
   .card-text {
     font-size: 1rem;
     line-height: 1.6;
-    max-width: 90%;
   }
 }
-
